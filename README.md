@@ -6,7 +6,7 @@
 LogVar 弹幕 API 服务器
 </h2>
 
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github)](https://github.com/huangxd-/danmu_api)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github)](https://github.com/hxjxtwg/danmu_api)
 ![GitHub forks](https://img.shields.io/github/forks/huangxd-/danmu_api)
 ![GitHub Repo stars](https://img.shields.io/github/stars/huangxd-/danmu_api)
 ![GitHub License](https://img.shields.io/github/license/huangxd-/danmu_api)
@@ -109,7 +109,7 @@ LogVar 弹幕 API 服务器
   - `/api/v2/comment` 请求时支持定义 `segmentflag=true` 参数，用于请求弹幕分片列表
   - `/api/v2/comment/:commentId?format=json&duration=true` 可在 JSON 返回体中附带 `videoDuration`
   - `/api/v2/segmentcomment` 通过comment接口返回体中的Segment类JSON数据获取单独一个分片的弹幕数据
-- **UI界面-后台配置管理系统**：支持通过UI执行一些操作（详细见 [UI 系统使用说明](https://github.com/huangxd-/danmu_api/tree/main/danmu_api/ui/README.md) ），包括：
+- **UI界面-后台配置管理系统**：支持通过UI执行一些操作（详细见 [UI 系统使用说明](https://github.com/hxjxtwg/danmu_api/tree/main/danmu_api/ui/README.md) ），包括：
   - 配置预览
   - 日志查看
   - 接口调试/弹幕测试
